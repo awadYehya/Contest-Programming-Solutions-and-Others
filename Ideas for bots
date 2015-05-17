@@ -1,0 +1,16 @@
+Ideas for bot..
+
+Whether to put defense/attack priority depending on where you are on the island
+like...
+if on my half, then defend,
+if on his half, then attack... ?
+Maybe.
+
+Test bot strengths tomorrow before bot tournament
+
+// New Insights.
+
+// If no good defense is available, and no good attack is available.
+// Get as close as possible. 
+// If right infront of enemny and if cannot move forward, or attack, shuffle.
+// Best defense is right infront of enemy with lots of 1 tiles.

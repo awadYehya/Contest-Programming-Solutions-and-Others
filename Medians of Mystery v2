@@ -1,0 +1,44 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+#include <unordered_map>
+using namespace std;
+
+typedef unordered_map<int,int> intmap;
+typedef vector<string> stringVector;
+
+int main() 
+{
+	
+	long int rowWidth1, row2Width ;
+
+	vector <string> row1, row2, combinedRows;
+	vector <int>	left, right;
+	string currentString ;
+
+	getInputData(row1, row2) ;
+}
+
+void getInputData(stringVector &row1, stringVector &row2)
+{
+	int width ;
+	cin >> width ;
+	for (int i = 0; i < width; ++i)
+	{
+		string numba ;
+		cin >> numba ;
+
+		row1.push_back(numba) ;
+	}
+
+	cin >> width ;
+	for (int i = 0; i < width; ++i)
+	{
+		string numba ;
+		cin >> numba ;
+
+		row2.push_back(numba) ;
+	}
+}
